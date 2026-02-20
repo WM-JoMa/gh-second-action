@@ -1,7 +1,7 @@
 # Action name
 name: Deploy Proyect
 # On each commit is pushed into the project
-on: push
+on: [push, workflow_dispatch]
 # Should do
 jobs:
   test:
